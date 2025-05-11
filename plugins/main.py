@@ -12,7 +12,7 @@ responses_dict = {}
 @Client.on_message(filters.private & filters.command("ask"))
 async def askcmd(client, message):
     await message.reply_text(
-        text="**You don't need to use this command here. Ask me directly.\n\nEx:** `Who Is Lord Shiva?`\n**Ok ?? Let's Try 😏**"
+        text="**You don't need to use this command here. Ask me directly.\n\nEx:** `Who Is Lord farman?`\n**Ok ?? Let's Try 😏**"
     )
 
 @Client.on_message(filters.command("ask") & filters.group)
